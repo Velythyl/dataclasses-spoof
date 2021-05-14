@@ -23,6 +23,6 @@ setup(
     author_email="charlie.gauthier@umontreal.ca",
     license="MIT",
     packages=find_packages(exclude=("pdfs")),
-    package_data={"litreview": ["*.yaml", "*.md"]},
+    package_data={"dataclasses": ["*.yaml", "*.md"]},
     include_package_data=True,
 )
